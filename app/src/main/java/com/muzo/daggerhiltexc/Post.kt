@@ -1,11 +1,11 @@
 package com.muzo.daggerhiltexc
 
-import android.icu.text.CaseMap.Title
+import com.google.gson.annotations.SerializedName
+
 
 data class Post(
-    val userId:Int,
-    val id:Int,
-    val title:String,
-    val body:String
-    ) {
-}
+    @SerializedName("userId") val userId: Int,
+    @SerializedName("id") val id: Int,
+    @SerializedName("title") val title: String,
+    @SerializedName("body") val body: String
+)

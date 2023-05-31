@@ -14,10 +14,13 @@ class RetrofitRepository @Inject constructor(private val  retrofitServiceInstanc
 
 
         val call: Call<List<Post>> = retrofitServiceInstance.getPosts()
+
         call.enqueue(object :Callback<List<Post>>{
+
             override fun onResponse(call: Call<List<Post>>, response: Response<List<Post>>) {
                 if (response.isSuccessful){
-                    liveData.postValue(response.body())
+
+                   liveData.value=response.body()
                 }
                 else{
                     liveData.postValue(null)
@@ -27,7 +30,7 @@ class RetrofitRepository @Inject constructor(private val  retrofitServiceInstanc
 
             override fun onFailure(call: Call<List<Post>>, t: Throwable) {
                 liveData.postValue(null)
-                Log.i("onFailure ","")
+                Log.i("Api problem ","onFailure $t")
             }
 
         })
