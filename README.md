@@ -14,9 +14,11 @@
   <p>Ayrıca, Retrofit  kütüphanesi kullanarak veri çekme işlemini gerçekleştirdim. Retrofit, RESTful API'ler ile etkileşimde bulunmayı sağlayan güçlü bir araçtır. Basit bir şekilde API çağrılarını tanımlayıp gerçekleştirebildim ve gelen verileri kullanıcı arayüzüne aktardım. Bu sayede, kullanıcılar uygulama üzerinden güncel verilere erişebilir ve istedikleri bilgilere kolayca ulaşabilirler.</p>
   
   <p>Uygulamamın temel amacı, basit bir şekilde kullanıcıların belirli bir veri kaynağından bilgi almasını sağlamaktır.</p>
+
   
   <p>Sonuç olarak, bu uygulama sayesinde Dagger Hilt ve Retrofit gibi araçları kullanarak veri çekme işlemini basitleştirdim.</p>
-  
-    <img src="resim_urlsi" alt="Açıklama" width="300" height="200">
+     <img src="https://github.com/erkocali1/DaggerHiltExc/blob/master/app/src/main/res/drawable/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-06-19%20203758.png" width="600" height="300">
 
+  
+ 
 
